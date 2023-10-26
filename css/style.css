@@ -10,19 +10,12 @@
 /* 
     HEADER
 */
-
 header {
     font-family: 'Roboto', sans-serif;
 }
 
-/* 
-    GENERAL
-*/
-
-.main-container {
-    width: 70%;
-    margin: auto;
-    margin-top: 30px;
+header h1 {
+    color: #e53170;
 }
 
 .margin-bottom {
@@ -34,10 +27,32 @@ header {
 }
 
 /* 
+    GENERAL
+*/
+.main-container {
+    width: 70%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+/* 
     MAIN
 */
 .container-cards {
-    max-width: 1600px;
-    height: 300px;
-    border: 1px solid black;
+    width: 100%;
+}
+
+.clear-fix {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.card {
+    float: left;
+    width: calc(100% / 3 - 20px);
+    margin-right: 20px;
+    margin-bottom: 20px;
+    height: 120px;
+    background-color: black;
 }
