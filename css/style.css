@@ -56,3 +56,28 @@ header h1 {
     height: 120px;
     background-color: black;
 }
+
+.foto {
+    height: 120px;
+}
+
+.float-left {
+    float: left;
+}
+
+.details {
+    float: left;
+    padding: 10px;
+}
+
+.details * {
+    margin-bottom: 6px;
+}
+
+h3, h4 {
+    color: white;
+}
+
+#email {
+    color: cornflowerblue;
+}
