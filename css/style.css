@@ -10,8 +10,9 @@
 /* 
     HEADER
 */
+
 header {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Fredoka', sans-serif;
 }
 
 header h1 {
@@ -68,10 +69,8 @@ header h1 {
 .details {
     float: left;
     padding: 10px;
-}
-
-.details * {
-    margin-bottom: 6px;
+    font-size: 14px;
+    font-family: 'Fredoka', sans-serif;
 }
 
 h3, h4 {
@@ -80,4 +79,9 @@ h3, h4 {
 
 #email {
     color: cornflowerblue;
+}
+
+.centrale {
+    margin-top: 16px;
+    margin-bottom: 16px;
 }
